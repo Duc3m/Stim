@@ -117,7 +117,7 @@ export default class game {
                   .map(
                     (item) =>
                       `<img src="${
-                        currlocale == "index.html" ? `${item}` : `../..${item}`
+                        currlocale == "index.html" ? `.${item}` : `../..${item}`
                       }" alt="" class="preview-slide">`
                   )
                   .join("")}
