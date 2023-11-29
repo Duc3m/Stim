@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="../../assets/icon/stim-minilogo.png">
+  <link rel="stylesheet" href="../css/style.css">
+  <script type="module" src="../js/cart.js" defer></script>
+  <script type="module" src="../js/item.js" defer></script>
+  <script type="module" src="../js/game.js" defer></script>
+  <script type="module" src="../js/user.js" defer></script>
+  <script type="module" src="../js/login.js" defer></script>
+  <script type="module" src="../js/reponsivemenu.js" defer></script>
+  <script type="module" src="../js/library.js"></script>
+  <title>Stim - Library</title>
+</head>
+
+<body>
+  <div id="alert-wrapper">
+    <div class="alert-content">
+      <!-- <div class="payment-alert">
+          <h2 class="alert-message">Do you want pay all?</h2>
+          <button class="cancelbtn">Cancel</button>
+          <button class="confirmbtn">Confirm</button>
+        </div> -->
+    </div>
+  </div>
+
+  <div id="popup-wrapper">
+    <div class="popup-content">
+
+    </div>
+  </div>
+  </div>
+
+  <div id="header">
+    <div class="topnav-wrapper">
+      <button id="topnav-burger"><img src="../../assets/icon/burger-icon.png" alt=""></button>
+      <div class="logo">
+        <a href="../../index.html">
+          <img src="../../assets/icon/stim-logo.png" alt="">
+        </a>
+      </div>
+      <div class="topnav-menu">
+        <a class="topnav-link" href="../../index.html">STORE</a>
+        <a class="topnav-link library" href="./library.html">LIBRARY</a>
+        <a class="topnav-link" href="./support.html">SUPPORT</a>
+      </div>
+      <div class="topnav-user">
+        <div class="login-btn">
+          <button id="nav-login">Sign In</button>
+        </div>
+        <div class="addbal-btn">
+          <button id="add-balance">+1,000,000đ</button>
+        </div>
+        <div class="user-info">
+          <p href="" class="username">
+
+          </p>
+          <p class="user-balance">
+
+          </p>
+
+        </div>
+        <div class="useravt">
+          <button id="user" href=""><img src="../../assets/icon/user-icon.png" alt=""></button>
+          <div class="user-menu">
+            <a id="config" href="./admin.html">Config</a>
+            <button id="cart">Cart</button>
+            <button id="logout">Log out</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- <div class="botnav-wrapper">
+        <div class="botnav">
+          <div class="searchbar">
+            <img src="/assets/icon/magnifying-glass-3-16.png" alt="">
+            <input type="text" placeholder="Search store">
+          </div>
+          <div class="botnav-menu">
+            <a class="botnav-link" href="">Discover</a>
+            <a class="botnav-link" href="">Browse</a>
+            <a class="botnav-link" href="">News</a>
+          </div>
+        </div> -->
+  <!-- </div> -->
+  <div id="library-wrapper">
+    <div class="game-list">
+      <div class="list-search">
+        <input type="text" id="lib-search">
+        <div>
+          <img src="../../assets/icon/magnifying-glass-3-16.png" alt="">
+        </div>
+      </div>
+      <div class="listGame">
+
+      </div>
+      <!-- <div class="game-in-library">
+        <img class="game-icon" src="../../assets/img/thumb/GOW.webp" alt="">
+        <div class="game-name"> God of war</div>
+      </div> -->
+    </div>
+    <div class="game-content">
+      <!-- <img class="game-banner" src="../../assets/img/game-banner/GOW_banner.webp" alt="">
+      <div class="popup-description">
+        <button class="download-button">Download</button>
+        <pre>
+<span class="blue-bold-text">ABOUT THIS GAME</span>
+
+Combining FromSoftware’s longstanding expertise in mech games with their signature action gameplay, ARMORED CORE VI FIRES OF RUBICON brings a brand-new action experience to the series.
+      <img style="width: 100%" src="https://cdn.cloudflare.steamstatic.com/steam/apps/1888160/extras/AC6_GIF1_DynamicBattles_616x236.gif?t=1696573287" alt="">
+<span class="green-bold-text">Dynamic, Omni-directional Battles</span>
+Players will pilot their mech in fast-paced, omni-directional battles, taking advantage of massive stages and their mech’s mobility on land and in the air to ensure victory.
+      <img style="width: 100%" src="https://cdn.cloudflare.steamstatic.com/steam/apps/1888160/extras/AC6_GIF2_Customization_616x236.gif?t=1696573287" alt="">
+<span class="green-bold-text">Customized Parts for Individual Battle Styles</span>
+Customize Armored Core parts to suit a large variety of playstyles. Selecting different parts not only changes the mech’s attacks, but also directly affects its movement and battle style, so each mission can be approached with a unique mech strategy.
+      <img style="width: 100%" src="https://cdn.cloudflare.steamstatic.com/steam/apps/1888160/extras/AC6_GIF3_BossBattles_616x236.gif?t=1696573287" alt="">
+<span class="green-bold-text">Thrilling Boss Battles</span>
+Deploy a wide variety of offensive and defensive tactics at close and long range to take down powerful enemy bosses.
+
+<span class="blue-bold-text">SYSTEM REQUIREMENTS</span>
+<span class="green-bold-text">Minimum:</span>
+Requires a 64-bit processor and operating system
+<span class="bold-text">OS</span>: Windows 10
+<span class="bold-text">Processor</span>: Intel Core i7-4790K | Intel Core i5-8400 or AMD Ryzen 7 1800X | AMD Ryzen 5 2600
+<span class="bold-text">Memory</span>: 12 GB RAM
+<span class="bold-text">Graphics</span>: NVIDIA GeForce GTX 1650, 4 GB or AMD Radeon RX 480, 4 GB
+<span class="bold-text">DirectX</span>: Version 12
+<span class="bold-text">Storage</span>: 60 GB available space
+<span class="bold-text">Sound Card</span>: Windows Compatible Audio Device
+
+<span class="green-bold-text">Recommended:</span>
+Requires a 64-bit processor and operating system
+<span class="bold-text">OS</span>: Windows 10/11
+<span class="bold-text">Processor</span>: Intel Core i7-7700 | Intel Core i5-10400 or AMD Ryzen 7 2700X | AMD Ryzen 5 3600
+<span class="bold-text">Memory</span>: 12 GB RAM
+<span class="bold-text">Graphics</span>: NVIDIA GeForce GTX 1060, 6GB or AMD Radeon RX 590, 8GB or Intel Arc A750, 8GB
+<span class="bold-text">DirectX</span>: Version 12
+<span class="bold-text">Storage</span>: 60 GB available space
+<span class="bold-text">Sound Card</span>: Windows Compatible Audio Device
+
+<span class="blue-bold-text">Languages Supported:</span> <span class="white-text">English, French, Italian, German, Spanish - Spain, Japanese, Korean, Polish, Portuguese - Brazil, Russian, Simplified Chinese, Spanish - Latin America, Traditional Chinese</span>              
+                </pre>
+    </div> -->
+    </div>
+  </div>
+</body>
+
+</html>

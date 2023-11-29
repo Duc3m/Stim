@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="../../assets/icon/stim-minilogo.png">
+  <link rel="stylesheet" href="../css/style.css" />
+  <script type="module" src="../js/cart.js" defer></script>
+  <script type="module" src="../js/item.js" defer></script>
+  <script type="module" src="../js/game.js" defer></script>
+  <script type="module" src="../js/user.js" defer></script>
+  <script type="module" src="../js/login.js" defer></script>
+  <script type="module" src="../js/reponsivemenu.js" defer></script>
+  <script type="module" src="../js/admin.js" defer></script>
+  <title>Stim - Config</title>
+</head>
+
+<body>
+  <div id="alert-wrapper">
+    <div class="alert-content">
+
+    </div>
+  </div>
+
+  <div id="popup-wrapper">
+    <div class="popup-content">
+
+    </div>
+  </div>
+  </div>
+
+  <div id="header">
+    <div class="topnav-wrapper">
+      <button id="topnav-burger"><img src="../../assets/icon/burger-icon.png" alt=""></button>
+      <div class="logo">
+        <a href="../../index.html">
+          <img src="../../assets/icon/stim-logo.png" alt="">
+        </a>
+      </div>
+      <div class="topnav-menu">
+        <a class="topnav-link" href="../../index.html">STORE</a>
+        <a class="topnav-link library" href="../../assets/html/library.html">LIBRARY</a>
+        <a class="topnav-link" href="../../assets/html/support.html">SUPPORT</a>
+      </div>
+      <div class="topnav-user">
+        <div class="login-btn">
+          <button id="nav-login">Sign In</button>
+        </div>
+        <div class="addbal-btn">
+          <button id="add-balance">+1,000,000đ</button>
+        </div>
+        <div class="user-info">
+          <p href="" class="username">
+
+          </p>
+          <p class="user-balance">
+
+          </p>
+
+        </div>
+        <div class="useravt">
+          <button id="user" href=""><img src="../../assets/icon/user-icon.png" alt=""></button>
+          <div class="user-menu">
+            <a id="config" href="../../assets/html/admin.html">Config</a>
+            <button id="cart">Cart</button>
+            <button id="logout">Log out</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="admin-wrapper">
+    <div class="menu-nav">
+      <div class="menu-header">
+        <button class="menu-btn" id="game-btn" type="button">Game</button>
+      </div>
+      <div class="menu-header">
+        <button class="menu-btn" id="account-btn" type="button">
+          Account
+        </button>
+      </div>
+    </div>
+    <div class="game-config hidden">
+      <div class="searchbar-container">
+        <div class="searchbar">
+          <img src="../../assets/icon/magnifying-glass-3-16.png" alt="" />
+          <input onclick="this.select();" type="text" placeholder="Search by Name" id="game-search" />
+        </div>
+        <button id="addGame">Add</button>
+        <div class="button-container">
+          <button class="offbtn" id="game-off-btn" type="button">X</button>
+        </div>
+      </div>
+      <div class="game-container">
+        <!-- <div class="admin-game">
+          <img class="game-img"
+            src="https://cdn.discordapp.com/attachments/748023581031530536/1172462265254039552/DS3.webp?ex=65606793&is=654df293&hm=f4c934a429ebf2a7fe0e4e6d29e0cb5e2b3504234edb60c0ce1d4e0b98989110&"
+            alt="" />
+          <span class="game-name">Sekiro™ Shadows Die Twice - GOTY Edition</span>
+        </div>
+      -->
+      </div>
+    </div>
+    <div class="account-config hidden">
+      <div class="searchbar-container">
+        <div class="searchbar">
+          <img src="../../assets/icon/magnifying-glass-3-16.png" alt="" />
+          <input onclick="this.select();" type="text" placeholder="Search by ID" id="search-userid" />
+        </div>
+        <div class="searchbar">
+          <img src="../../assets/icon/magnifying-glass-3-16.png" alt="" />
+          <input onclick="this.select();" type="text" placeholder="Search by Username" id="search-username" />
+        </div>
+        <div class="button-container">
+          <button class="offbtn" id="account-off-btn" type="button">X</button>
+        </div>
+      </div>
+      <div class="account-nav">
+        <div class="account-id-nav" style="width: 10%;">ID</div>
+        <div class="account-username-nav">Username</div>
+        <div class="account-password-nav">Password</div>
+        <div style="opacity: 0;" class="account-ban-btn">Ban</div>
+        <div style="opacity: 0;" class="account-delete-btn">Delete</div>
+      </div>
+      <div class="account-container">
+        <!-- <div class="account">
+          <div class="account-id">90</div>
+          <div class="account-username">quang</div>
+          <div class="account-password">123456</div>
+        </div>
+      -->
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

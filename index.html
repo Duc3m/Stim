@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="./assets/icon/stim-minilogo.png">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <script type="module" src="./assets/js/cart.js" defer></script>
+  <script type="module" src="./assets/js/game.js" defer></script>
+  <script type="module" src="./assets/js/item.js" defer></script>
+  <script type="module" src="./assets/js/user.js" defer></script>
+  <script type="module" src="./assets/js/login.js" defer></script>
+  <script type="module" src="./assets/js/store.js" defer></script>
+  <script type="module" src="./assets/js/reponsivemenu.js" defer></script>
+  <title>Stim</title>
+</head>
+
+<body>
+
+  <div id="alert-wrapper">
+    <div class="alert-content">
+      <!-- <div class="payment-alert">
+        <h2 class="alert-message">Do you want pay all?</h2>
+        <button class="cancelbtn">Cancel</button>
+        <button class="confirmbtn">Confirm</button>
+      </div> -->
+    </div>
+  </div>
+
+  <div id="popup-wrapper">
+    <div class="popup-content">
+
+    </div>
+  </div>
+  </div>
+
+  <div id="header">
+    <div class="topnav-wrapper">
+      <button id="topnav-burger"><img src="./assets/icon/burger-icon.png" alt=""></button>
+      <div class="logo">
+        <a href="./index.html">
+          <img src="./assets/icon/stim-logo.png" alt="">
+        </a>
+      </div>
+      <div class="topnav-menu">
+        <a class="topnav-link" href="./index.html">STORE</a>
+        <a class="topnav-link library" href="./assets/html/library.html">LIBRARY</a>
+        <a class="topnav-link" href="./assets/html/support.html">SUPPORT</a>
+      </div>
+      <div class="topnav-user">
+        <div class="login-btn">
+          <button id="nav-login">Sign In</button>
+        </div>
+        <div class="addbal-btn">
+          <button id="add-balance">+1,000,000đ</button>
+        </div>
+        <div class="user-info">
+          <p href="" class="username">
+
+          </p>
+          <p class="user-balance">
+
+          </p>
+
+        </div>
+        <div class="useravt">
+          <button id="user" href=""><img src="./assets/icon/user-icon.png" alt=""></button>
+          <div class="user-menu">
+            <a id="config" href="./assets/html/admin.html">Config</a>
+            <button id="cart">Cart</button>
+            <button id="logout">Log out</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div id="slideshow">
+    <div class="slideshow-wrapper">
+
+      <div class="slideshow-banner">
+        <img src="./assets/img/slideshow/ac-mirage-slideshow.webp" alt="">
+        <div class="banner-desc">
+          <div class="banner-logo">
+            <img src="./assets/img/slideshow/ac-mirage-logo.png" alt="">
+          </div>
+          <p>Experience the story of Basim, a cunning thief seeking answers and justice as he navigates the streets of
+            ninth-century
+            Baghdad.</p>
+          <p>Starting at 790,000đ</p>
+          <!-- <button value="g9">Add to Cart</button> -->
+        </div>
+      </div>
+
+      <div class="slideshow-banner">
+        <img src="./assets/img/slideshow/lotf-slideshow.webp" alt="">
+        <div class="banner-desc">
+          <div class="banner-logo">
+            <img src="./assets/img/slideshow/lotf-logo.png" alt="">
+          </div>
+          <p>A vast world awaits in the all-new, dark fantasy action-RPG, Lords of the Fallen.</p>
+          <p>Starting at 790,000đ</p>
+          <!-- <button value="g7">Add to Cart</button> -->
+        </div>
+      </div>
+
+      <div class="slideshow-banner">
+        <img src="./assets/img/slideshow/sonic-superstars-slideshow.webp" alt="">
+        <div class="banner-desc">
+          <div class="banner-logo">
+            <img src="./assets/img/slideshow/sonic-superstar-logo.png" alt="">
+          </div>
+          <p>Adventure through the mystical Northstar Islands solo or co-op. It's 2D Sonic like you have never seen
+            before.</p>
+          <p>Starting at 790,000đ</p>
+          <!-- <button value="g18">Add to Cart</button> -->
+        </div>
+      </div>
+
+      <div class="slideshow-banner">
+        <img src="./assets/img/slideshow/alan-wake-2-slideshow.webp" alt="">
+        <div class="banner-desc">
+          <div class="banner-logo">
+            <img src="./assets/img/slideshow/alan-wake-2-logo.png" alt="">
+          </div>
+          <p>The newest psychological thriller from Remedy Entertainment and highly-anticipated sequel is almost here.
+          </p>
+          <p>Starting at 790,000đ</p>
+          <!-- <button value="g5">Add to Cart</button> -->
+        </div>
+      </div>
+
+      <div class="slideshow-banner">
+        <img src="./assets/img/slideshow/witchfire-slideshow.webp" alt="">
+        <div class="banner-desc">
+          <div class="banner-logo">
+            <img src="./assets/img/slideshow/witchfire-logo.png" alt="">
+          </div>
+          <p>Armed with strange weapons and forbidden pagan magic, hunt a powerful witch holding the key to your
+            salvation.</p>
+          <p>Starting at 790,000đ</p>
+          <!-- <button value="g8">Add to Cart</button> -->
+        </div>
+      </div>
+
+      <div id="progress-bar-wrapper">
+
+      </div>
+
+      <div class="slider">
+        <!-- <div class="slider-container"> -->
+        <div class="slider-item" id="slider-1">
+          <img src="./assets/img/thumb/ac-mirage-thumb.webp" alt="">
+          <p>Assassin's Creed Mirage</p>
+        </div>
+        <div class="slider-item" id="slider-2">
+          <img src="./assets/img/thumb/lotf-thumb.webp" alt="">
+          <p>Lords of the Fallen</p>
+        </div>
+        <div class="slider-item" id="slider-3">
+          <img src="./assets/img/thumb/sonic-superstars-thumb.webp" alt="">
+          <p>Sonic Superstars</p>
+        </div>
+        <div class="slider-item" id="slider-4">
+          <img src="./assets/img/thumb/alan-wake-2-thumb.jpg" alt="">
+          <p>Alan Wake 2</p>
+        </div>
+        <div class="slider-item" id="slider-5">
+          <img src="./assets/img/thumb/witchfire-thumb.webp" alt="">
+          <p>Witchfire</p>
+        </div>
+        <!-- </div> -->
+      </div>
+    </div>
+  </div>
+
+  <div class="botnav-wrapper">
+    <div class="botnav">
+      <div class="searchbar">
+        <img src="./assets/icon/magnifying-glass-3-16.png" alt="">
+        <input type="text" placeholder="Search store" id="searchinput">
+      </div>
+      <div class="botnav-menu">
+        <label class="category-label" for="category">Category: </label>
+        <select name="category" id="selectCategory" class="selectCategory">
+          <option value="">All</option>
+        </select>
+      </div>
+    </div>
+  </div>
+
+  <div id="body">
+
+    <div class="body-content">
+      <div id="game-grid">
+
+      </div>
+      <div class="game-grid-page">
+        
+      </div>
+    </div>
+  </div>
+  </div>
+
+
+  <div id="footer">
+    <div class="footer-content">
+      <img class="footer-logo" src="./assets/icon/stim-logo.png" alt="">
+      <div class="footer-menu">
+        <a class="footer-link" href="">About</a>
+        <a class="footer-link" href="./assets/html/support.html">Support</a>
+        <a class="footer-link" href="">Contact Us</a>
+      </div>
+      <div class="copyright">
+        <h2>©Stim 2023</h2>
+        <p>Inspired by Epic Games Store</p>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
